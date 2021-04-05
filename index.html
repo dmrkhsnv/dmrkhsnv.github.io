@@ -3,52 +3,152 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>englibox</title>
+    <title>/englibox</title>
     <link rel="stylesheet" href="style.css"> </head>
 
 <body>
-    <div class="header container">
-        <div class="header_flex-left">
-            <a href="#" class="header_logo"><img src="image/logo.svg" alt="englibox" class="englibox_logo"></a>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="#" class="nav_element">О нас</a></li>
-                    <li><a href="#" class="nav_element">Программы</a></li>
-                    <li><a href="#" class="nav_element">Наставники</a></li>
-                    <li><a href="#" class="nav_element">Условия</a></li>
-                    <li><a href="#" class="nav_element">Тесты</a></li>
+    <header class="eb_header container">
+        <div class="eb_header__col">
+            <div class="eb_header__logo">
+                <a href="#" class="eb__logo_link"><img src="image/logo.svg" alt="/englibox"></a>
+            </div>
+            <nav class="eb_header__nav">
+                <ul>
+                    <li><a href="#" class="nav_item">О нас</a></li>
+                    <li><a href="#" class="nav_item">Программы</a></li>
+                    <li><a href="#" class="nav_item">Наставники</a></li>
+                    <li><a href="#" class="nav_item">Условия</a></li>
+                    <li><a href="#" class="nav_item">Тесты</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="header_flex-right">
-            <a href="https://www.instagram.com/englibox.mag/" target="_blank">
-                <div class="ig_button_bg"> <img src="image/instagram-11.svg" class="ig_button_icon" alt="ig"> </div>
-            </a>
+        <div class="eb_header__col">
+            <div class="ig__button">
+                <a href="https://www.instagram.com/englibox.mag/" target="_blank">
+                    <div class="ig_button_bg"> <img src="image/icon-instagram-dark.svg" class="ig_button_icon" alt="ig"> </div>
+                </a>
+            </div>
         </div>
-    </div>
-    <section>
-        <div class="head_teach_content container">
-            <div class="head_teach_content__flex-left head_teach_content__position-left">
-                <h1 class="name_heading main_heading">/знакомьтесь</h1>
-                <div class="head_teach_info">
-                    <div class="head_teach head-teach__1"></div>
-                    <div class="teacher_name teacher_name__left">
-                        <h2 class="meet_heading">/meet</h2>
-                        <h1 class="name_heading">DAMIR</h1> </div>
+    </header>
+    <section class="eb_courses">
+        <div class="eb_courses__content container">
+            <h2 class="section_title-big">Направления подготовки</h2>
+            <div class="courses_general__row">
+                <div class="eb_course-card general-card">
+                    <div class="course_top">
+                        <div class="course_name">
+                            <h2 class="heading_nunito nunito_yellow">/junior</h2>
+                            <p class="description_short">Beginner+</p>
+                        </div>
+                        <div class="course_age">
+                            <p class="age_info">>18</p>
+                        </div>
+                    </div>
+                    <div class="course_bottom">
+                        <p class="description_long">Английский для подростков</p>
+                        <div class="button_tiny"><a href="#" class="more_button">Подробнее</a></div>
+                    </div>
                 </div>
-                <div class="head_teach_quote head_teach_quote__left"> Важно уметь подать материал не только методически правильно, но и в интересной, увлекательной форме. Мои навыки позволяют мне разрабатывать актуальные авторские материалы. </div>
-            </div>
-            <div class="head_teach_content__flex-right head_teach_content__position-right">
-                <div class="head_teach_info head_teach_info__right">
-                    <div class="teacher_name teacher_name__right">
-                        <h2 class="meet_heading meet_heading__right">/meet</h2>
-                        <h1 class="name_heading name_heading__right">IRINA</h1> </div>
-                    <div class="head_teach head-teach__2"></div>
+                <div class="eb_course-card general-card">
+                    <div class="course_top">
+                        <div class="course_name">
+                            <h2 class="heading_nunito nunito_yellow">/adults</h2>
+                            <p class="description_short">Beginner+</p>
+                        </div>
+                        <div class="course_age">
+                            <p class="age_info">18+</p>
+                        </div>
+                    </div>
+                    <div class="course_bottom">
+                        <p class="description_long">Английский для взрослых</p>
+                        <div class="button_tiny"><a href="#" class="more_button">Подробнее</a></div>
+                    </div>
                 </div>
-                <div class="head_teach_quote head_teach_quote__right"> Люблю свою работу, потому что преподавание мотивирует постоянно развиваться, встречать новых людей, вдохновляться и вдохновлять! А главное, что все это на английском! </div>
+                <div class="eb_course-card general-card">
+                    <div class="course_top">
+                        <div class="course_name">
+                            <h2 class="heading_nunito nunito_yellow">/special</h2>
+                            <p class="description_short">Beginner+</p>
+                        </div>
+                        <!--  <div class="course_age">
+                            <p class="age_info">>18</p>
+                        </div> --></div>
+                    <div class="course_bottom">
+                        <p class="description_long">Индивидуальная программа</p>
+                        <div class="button_tiny"><a href="#" class="more_button">Подробнее</a></div>
+                    </div>
+                </div>
+                <div class="eb_course-card general-card">
+                    <div class="course_top">
+                        <div class="course_name">
+                            <h2 class="heading_nunito nunito_yellow">/exams</h2>
+                            <p class="description_short">Beginner+</p>
+                        </div>
+                        <!--  <div class="course_age">
+                            <p class="age_info">>18</p>
+                        </div> --></div>
+                    <div class="course_bottom">
+                        <p class="description_long">IELTS
+                            <br>ЕГЭ</p>
+                        <div class="button_tiny"><a href="#" class="more_button">Подробнее</a></div>
+                    </div>
+                </div>
+                <div class="eb_course-card general-card">
+                    <div class="course_top">
+                        <div class="course_name">
+                            <h2 class="heading_nunito nunito_yellow">/business</h2>
+                            <p class="description_short">Elementary+</p>
+                        </div>
+                        <!--  <div class="course_age">
+                            <p class="age_info">>18</p>
+                        </div> --></div>
+                    <div class="course_bottom">
+                        <p class="description_long">Английский для работы</p>
+                        <div class="button_tiny"><a href="#" class="more_button">Подробнее</a></div>
+                    </div>
+                </div>
             </div>
+            <div class="level_test__info"> </div>
         </div>
     </section>
+    
+    <section class="eb_teachers-main">
+        <div class="eb-teachers-main__content container">
+            
+             <div class="teacher-card_grid">
+              <div class="eb-teacher-card">
+        <div class="teacher_top">
+        <div class="teacher-pic-shadow-yellow"></div>
+        <div class="meet_teacher">
+            <div class="heading_nunito nunito_yellow">/meet</div>
+            <div class="teacher_name heading40">DAMIR</div>
+        </div>
+        </div>
+        <div class="eb-teacher_quote">
+            Важно уметь подать материал не только методически правильно, но и в интересной, увлекательной форме. Мои навыки позволяют мне разрабатывать актуальные авторские материалы.
+        </div>
+    </div>
+       <div class="eb-teacher-card ">
+       <h2 class="section_title-big section_title-big__right-position">Знакомьтесь</h2>
+        <div class="teacher_top teacher_top_right">
+        
+        <div class="meet_teacher">
+            <div class="heading_nunito nunito_yellow heading_nunito_right">/meet</div>
+            <div class="teacher_name heading40">IRINA</div>
+        </div>
+        <div class="teacher-pic-shadow-yellow teacher-pic-shadow-right"></div>
+        </div>
+        <div class="eb-teacher_quote">
+            Люблю свою работу, потому что преподавание мотивирует постоянно развиваться, встречать новых людей, вдохновляться и вдохновлять! А главное, что все это на английском!
+        </div>
+    </div>
+       </div>
+        </div>
+        
+    </section>
+    
+  
+    
 </body>
 
 </html>
